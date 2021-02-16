@@ -6,6 +6,10 @@ The algorithm used to solve the balancing problem is the Soft Actor Critic Algor
 - [SAC Paper 2](https://arxiv.org/abs/1812.05905)
   provides the State-of-the-Art implementation of SAC with automatic temperature parameter optimization.
   
+  ## Soft Actor Critic Algorithm
+  ![alt text](https://spinningup.openai.com/en/latest/_images/math/c01f4994ae4aacf299a6b3ceceedfe0a14d4b874.svg)
+
+  
   ## Problem Formulation
   The goal of the RL agent is to balance the two poles in their unstable equilibrium position with the horizontal force on the cart as input control variable.
 
