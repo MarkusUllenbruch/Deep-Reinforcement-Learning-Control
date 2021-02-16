@@ -1,12 +1,13 @@
 # Balancing Double Pendulum with Deep Reinforcement Learning
 In thiy Notebook i implemented a double pendulum environment simulation environment suitable for interacting with a deep reinforcement learning agent.
-The algorithm used to solve the balancing problem is the Soft Actor Critic Algorithm from:
+  
+  ## Soft Actor Critic Algorithm
+  The algorithm used to solve the balancing problem is the Soft Actor Critic Algorithm from:
 - [SAC Paper 1](https://arxiv.org/abs/1801.01290)
   provides the original and first version of SAC.
 - [SAC Paper 2](https://arxiv.org/abs/1812.05905)
   provides the State-of-the-Art implementation of SAC with automatic temperature parameter optimization.
-  
-  ## Soft Actor Critic Algorithm
+  The algorithm of [SAC](https://spinningup.openai.com/en/latest/_images/math/c01f4994ae4aacf299a6b3ceceedfe0a14d4b874.svg) is presented below:
   ![alt text](https://spinningup.openai.com/en/latest/_images/math/c01f4994ae4aacf299a6b3ceceedfe0a14d4b874.svg)
 
   
@@ -19,4 +20,4 @@ Image Source: https://www.researchgate.net/figure/Double-inverted-pendulum-on-a-
 
 ## Results
 The soft actor critic algorithm is able to solve the continuous control task.
-In the following image, the learning curve, which is the total return of one episode over all the episodes, is presented:
+In the following image, the learning curve, which is the total sum of rewards of one played episode over all the episodes played, is presented:
