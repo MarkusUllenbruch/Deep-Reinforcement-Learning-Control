@@ -8,6 +8,7 @@ In thiy Notebook i implemented a double pendulum environment simulation environm
 - [SAC Paper 2](https://arxiv.org/abs/1812.05905)
   provides the State-of-the-Art implementation of SAC with automatic temperature parameter optimization.
   The algorithm of [SAC](https://spinningup.openai.com/en/latest/_images/math/c01f4994ae4aacf299a6b3ceceedfe0a14d4b874.svg) is presented below:
+  
   ![alt text](https://spinningup.openai.com/en/latest/_images/math/c01f4994ae4aacf299a6b3ceceedfe0a14d4b874.svg)
 
   
