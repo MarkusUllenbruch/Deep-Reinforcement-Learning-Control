@@ -1,6 +1,6 @@
 # Continuous Control Task with Deep Reinforcement Learning
 ## Balancing a Double Pendulum on Cart
-In thiy Notebook i implemented a double pendulum environment simulation environment suitable for interacting with a deep reinforcement learning agent.
+In this Notebook i implemented a double pendulum environment simulation environment suitable for interacting with a deep reinforcement learning agent.
   
   ## Soft Actor Critic Algorithm
   The algorithm used to solve the balancing problem is the Soft Actor Critic Algorithm from:
