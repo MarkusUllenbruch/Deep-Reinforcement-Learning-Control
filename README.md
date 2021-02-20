@@ -1,6 +1,6 @@
 # Continuous Control Task with Deep Reinforcement Learning
 ## Balancing a Double Pendulum on Cart
-In this Notebook i implemented a double pendulum environment simulation environment suitable for interacting with a deep reinforcement learning agent.
+In this Notebook I implemented a double pendulum environment simulation environment suitable for interacting with a deep reinforcement learning agent.
 
 ## Results
 The soft actor critic algorithm is able to solve the continuous control task. The maximum achievable return per episode is +600. During training the environment is solved by the soft actor critic - solving means +550 average return over the last 100 played episodes.
