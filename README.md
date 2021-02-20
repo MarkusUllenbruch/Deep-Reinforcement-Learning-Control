@@ -23,3 +23,6 @@ Image Source: https://www.researchgate.net/figure/Double-inverted-pendulum-on-a-
 ## Results
 The soft actor critic algorithm is able to solve the continuous control task.
 In the following image, the learning curve, which is the total sum of rewards of one played episode over all the episodes played, is presented:
+
+![alt text](https://github.com/MarkusUllenbruch/Deep-Reinforcement-Learning-Control/blob/main/DoubleCartPole/plots/_SAC_return_.png)
+
