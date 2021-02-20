@@ -21,13 +21,13 @@ In thiy Notebook i implemented a double pendulum environment simulation environm
 Image Source: https://www.researchgate.net/figure/Double-inverted-pendulum-on-a-cart_fig1_250107215
 
 ## Results
-The soft actor critic algorithm is able to solve the continuous control task. The maximum return per episode is +600.
-In the following image, the learning curve, which is the total sum of rewards of one played episode over all the episodes played, is presented:
+The soft actor critic algorithm is able to solve the continuous control task. The maximum achievable return per episode is +600. During training the environment is solved by the soft actor critic - solving means +550 average return over the last 100 played episodes.
+In the following image, the learning curve, which is the total sum of rewards of one played episode over all the episodes played, is presented, as well as the adapted entropy parameter alpha over the episodes:
 
 ![alt text](https://github.com/MarkusUllenbruch/Deep-Reinforcement-Learning-Control/blob/main/DoubleCartPole/plots/_SAC_return_.png)
 ![alt text](https://github.com/MarkusUllenbruch/Deep-Reinforcement-Learning-Control/blob/main/DoubleCartPole/plots/_SAC_alpha_.png)
 
-Loading the best weights of training process and playing one episode, both angles over time are:
+Loading the best weights of the training process and playing one episode, both angles of the inverse double pendulum on cart controled by the SAC agent over time are:
 
 ![alt text](https://github.com/MarkusUllenbruch/Deep-Reinforcement-Learning-Control/blob/main/DoubleCartPole/plots/phi_1.png)
 ![alt text](https://github.com/MarkusUllenbruch/Deep-Reinforcement-Learning-Control/blob/main/DoubleCartPole/plots/phi_2.png)
