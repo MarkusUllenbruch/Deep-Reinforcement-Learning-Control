@@ -1,8 +1,8 @@
 # Continuous Control Task with Deep Reinforcement Learning
 ## Balancing a Double Pendulum on Cart
 In this Notebook I implemented
-- a double pendulum simulation environment suitable for interacting with a deep reinforcement learning agent
-- Soft-Actor-Critic (SAC) algorithm
+- a double pendulum on cart simulation environment suitable for interacting with a deep reinforcement learning agent
+- Soft-Actor-Critic (SAC) DRL algorithm
 - Training Loop
 
 ## Results
